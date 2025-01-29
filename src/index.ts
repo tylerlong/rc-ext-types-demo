@@ -2,7 +2,6 @@ import RingCentral from "@rc-ex/core";
 import WSExt from "@rc-ex/ws";
 
 import ExtensionInfo from "@rc-ex/core/definitions/ExtensionInfo";
-import ExtensionInfo2 from "@rc-ex/core/lib/definitions/ExtensionInfo";
 
 const rc = new RingCentral({
   server: process.env.RINGCENTRAL_SERVER_URL,
@@ -19,7 +18,7 @@ const main = async () => {
     debugMode: true,
   });
   await rc.installExtension(ws);
-  const r: ExtensionInfo2 = await rc.restapi().account().extension().get();
+  const r: ExtensionInfo = await rc.restapi().account().extension().get();
   console.log(JSON.stringify(r, null, 2));
   await rc.revoke();
 };
