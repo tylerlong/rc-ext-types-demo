@@ -122,19 +122,19 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.23.1.tgz#81fd50d11e2c32b2d6241470e3185b70c7b30699"
   integrity sha512-BHpFFeslkWrXWyUPnbKm+xYYVYruCinGcftSBaa8zoF9hZO4BcSCFUvHVTtzpIY6YzUnYtuEhZ+C9iEXjxnasg==
 
-"@rc-ex/core@^1.6.5":
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-1.6.5.tgz#374ddda873bec0baf91344223972ac2813dd21e7"
-  integrity sha512-MPsF8m6EDNfKnu/yRMorUFZ0jQ6lQ8uctUU3jdv+MPcRvSuA9J2Rpj2kguLUZpY+OIol4mOKT67BfW1MVnCELA==
+"@rc-ex/core@^1.6.11":
+  version "1.6.11"
+  resolved "https://registry.yarnpkg.com/@rc-ex/core/-/core-1.6.11.tgz#c2e109e9bd587b502c7a4e15d7a1ebe2bab32f49"
+  integrity sha512-2jJqOkq3ymCQtR4nfgxnA6/IjL/zFdXiYrqwvpY6Bvk8z1Vf3SxajDfEbKVDqC4oEriOjOh3FYGclUmeVnQaVQ==
   dependencies:
     "@types/qs" "^6.9.18"
     axios "^1.7.9"
     qs "^6.14.0"
 
-"@rc-ex/ws@^1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@rc-ex/ws/-/ws-1.3.6.tgz#6da12305e12f4bb5e701b43ded08153caa6c03ea"
-  integrity sha512-R10vVPJCQpr4f7RqwRJGEFBBjIcBuNGoxFDoSF1gUkuxDcgBlB0qhMLwx1/QOikSEPsXnQt/n2rwqYgfc385xw==
+"@rc-ex/ws@^1.3.11":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@rc-ex/ws/-/ws-1.3.11.tgz#891fd2de194703bbd024734bb33883dec96dbac4"
+  integrity sha512-ZHY7mhkcKo8QgzYo+CGZtTU+EDxVUncFdOfeQ+DGEV6fm1EnghQkEUU4vdvuve2hw3aMLKYWG0ofovmCt+GYBA==
   dependencies:
     "@types/ws" "^8.5.14"
     http-status-codes "^2.3.0"
