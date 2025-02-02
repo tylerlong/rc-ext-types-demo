@@ -1,8 +1,8 @@
 {
   "license": "MIT",
   "devDependencies": {
-    "@rc-ex/core": "^1.6.4",
-    "@rc-ex/ws": "^1.3.4",
+    "@rc-ex/core": "^1.6.5",
+    "@rc-ex/ws": "^1.3.6",
     "@types/node": "^22.13.0",
     "dotenv-override-true": "^6.2.2",
     "tsx": "^4.19.2",
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "tsx -r dotenv-override-true/config src/index.ts",
     "test2": "node -r dotenv-override-true/config src/index.cjs",
-    "test3": "node -r dotenv-override-true/config --experimental-specifier-resolution=node src/index.mjs",
+    "test3": "node -r dotenv-override-true/config src/index.mjs",
     "reinstall": "rm -rf node_modules && yarn install"
   }
 }
