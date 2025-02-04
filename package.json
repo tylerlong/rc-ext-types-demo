@@ -1,8 +1,8 @@
 {
   "license": "MIT",
   "devDependencies": {
-    "@rc-ex/core": "^1.6.14",
-    "@rc-ex/ws": "^1.3.14",
+    "@rc-ex/core": "^1.6.16",
+    "@rc-ex/ws": "^1.3.16",
     "@types/node": "^22.13.1",
     "dotenv-override-true": "^6.2.2",
     "tsx": "^4.19.2",
